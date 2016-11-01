@@ -21,13 +21,15 @@
 	<h2>文章一级标题</h2><br>
 	<h3>文章二级标题</h3>
 
-	<p>文章作者  文章发表时间</p>
+	<span>文章作者</span>
+	<span>文章发表时间</span> 
 	<p>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落<br>换行了</br>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落<br>换行了</br>这是一个很长的段落,这是一个很长的段落,<a href="http://baidu.com">这里有个链接链接到http://baidu.com</a>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落.</p><br>
 
-	<img src="B00E5D1E4C1759FB2D0B97BA549868D7.jpg" alt="头像" width="30" height="50">
+	<img src="B00E5D1E4C1759FB2D0B97BA549868D7.jpg" alt="头像" width="40" height="50">
 
 	<p>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落<br>换行了</br>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落<br>换行了</br>这是一个很长的段落,这是一个很长的段落,<a href="http://baidu.com">这里有个链接链接到http://baidu.com</a>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落.</p><br>
-
+	</article>
+	<article>
 	<h2>另一篇文章的一级标题</h2><br>
 	<h3>另一篇文章的二级标题</h3>
 
@@ -36,7 +38,7 @@
 
 	<p>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落<br>换行了</br>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落<br>换行了</br>这是一个很长的段落,这是一个很长的段落,<a href="http://baidu.com">这里有个链接链接到http://baidu.com</a>这是一个很长的段落,这是一个很长的段落,这是一个很长的段落,这是一个很长的段落.</p><br>
 
-	<img src="B00E5D1E4C1759FB2D0B97BA549868D7.jpg" alt="头像" width="30" height="50">
+	<img src="B00E5D1E4C1759FB2D0B97BA549868D7.jpg" alt="头像" width="40" height="50">
 
 	<ul>
 		<li>列表项目一</li>
@@ -68,6 +70,9 @@
 
 <p>好看的图片</p>
 <img src="B00E5D1E4C1759FB2D0B97BA549868D7.jpg">
+</article>
+
+<article>
 
 <h2>最后一篇文章一级标题</h2>
 <h3>最后一篇文章二级标题</h3>
@@ -106,35 +111,51 @@
 	<td colspan="2">1000</td>
 </tr>
 </table>
+<aside>
+<h2>这里以后是个侧栏,这是侧栏的标题</h2>
+<h3>侧栏注册窗口标题</h3>
 
-<form method="get" action="#">
-请输入邮箱地址:<input type="email" placeholder="这是一个文本输入框" name="user" value="">
+<form method="get" action="">
+<label>
+请输入邮箱地址:<input type="email" placeholder="这是一个文本输入框" name="user">
+</label>
 <p>邮箱地址请按照正确格式输入</p>
+<label>
 请输入密码:<input type="password" placeholder="这是一个文本输入框" name="password">
+</label>
+<label>
 请重复输入密码:<input type="password" placeholder="这是一个文本输入框" name="pwd">
+</label>
 <p>密码为6-16位英文数字</p>
-<button>提交</button>
+
+<span>性别:</span>
+<label><input type="radio" name="sex" value="man" checked>男</label>
+<label><input type="radio" name="sex" value="woman">女</label>
+
+<label>
+	<select name="city">
+	<option value="beijing" selected>北京</option>
+	<option value="guangzhou">广州</option>
+	<option value="shanghai">上海</option>	
+	</select>
+</label>
+<span>爱好:</span>
+<label><input type="checkbox" name="enjoy" value="yundong">运动</label>
+<label><input type="checkbox" name="enjoy" value="yishu">艺术</label>
+<label><input type="checkbox" name="enjoy" value="kexue">科学</label>
+
+<label>个人描述:<textarea name="desc" placeholder="这是一个多行输入框，请输入自我介绍"></textarea></label>
+
+<button type="submit">确认提交</button>
+
 </form>
 
-
-
-
-
-
-	
-
-
-
-
-
-
-
+</aside>
 </article>
 
-
-
-
-
+<footer>
+<div>版权所有&copy;</div>
+</footer>
 
 </body>
 </html>
