@@ -1,0 +1,39 @@
+
+
+body{
+	width: 960px;
+	margin: 0 auto;
+}
+
+header{
+	width: 960px;
+	height: 120px;
+	background-color: olive;
+	resize: both;
+	overflow: auto;
+}
+
+aside{
+	width: 200px;
+	height: 500px;
+	background-color: purple;
+	border: 5px solid green;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+section{
+	width: 760px;
+	height: 500px;
+	background-color: maroon;
+	float: right;
+}
+footer{
+	width: 960px;
+	height: 120px;
+	background-color: gray;
+	clear: both;
+}
+textarea{
+	resize: none;
+}
