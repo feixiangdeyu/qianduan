@@ -9,41 +9,97 @@ ul {
 a{
 	text-decoration: none;
 }
-
-#nav {
-	width: 100%;
-	height: 70px;
-	background-color: #333;
+.none{
+	display: none;
 }
 
-#nav > section{
-	width: 400px;
+#header {
+	width: 100%;
+	min-width: 1263px;
+	height: 70px;
+	background-color: #333;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.3s);
+	position: relative;
+	z-index: 999;
+}
+
+#header > div{
+	width: 1263px;
 	height: 70px;
 	margin: 0 auto;
 }
-#nav > section > h1{
-	width: 50px;
+#header > div > h1{
+	width: 240px;
 	height: 70px;
 	background-image: url(B00E5D1E4C1759FB2D0B97BA549868D7.jpg);
 	text-indent:  -999px;
 	float: left;
 }
-#nav > section > ul{
+#header > div > nav > ul{
 	float: right;
 	line-height: 70px;
 	height: 70px;
     color: #eee;
-    width: 350px;
+    width: 650px;
 }
-#nav > section > ul > li{
+#header > div > nav > ul > li{
 	float: left;
-	width: 70px;
+	width: 120px;
 	text-align: center;
 }
-#nav > section > ul > li >  a{
+#header > div > nav > ul > li >  a{
 	color: #eee;
 	display: block;
 }
-#nav > section > ul > li >  a:hover,#nav  > section > ul > li.active a{
+#header > div > nav > ul > li >  a:hover,#header  > div > nav > ul > li.active a{
 	background-color: black;
+}
+#search{
+    width: 100%;
+    min-width: 1263px;
+    height: 600px;
+    background:url(B00E5D1E4C1759FB2D0B97BA549868D7.jpg) no-repeat center;
+    position: relative;
+}
+#search .center{
+    width: 600px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -300px;
+    background: red;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+#search .search{
+	width: 446px;
+	height: 54px;
+	background: #fff;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -27px 0 0 -296px;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 0 10px;
+    outline: none;
+}
+#search .botton{
+    width: 120px;
+    height: 54px;
+    position: absolute;
+    background-color: #eee;
+    top: 50%;
+    left: 50%;
+    margin: -27px 0 0 175px;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 10px;
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
 }
