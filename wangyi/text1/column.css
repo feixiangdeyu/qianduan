@@ -50,7 +50,7 @@
 #container .tag{
 	padding: 10px 0;
 }
-#container .tag a{
+#container .tag li{
 	display: inline-block;
 	width: 100px;
 	height: 35px;
@@ -59,6 +59,9 @@
 	text-align: left;
 	text-indent: 4px;
 	background-color: #eee;
+}
+#container .tag a{
+	display: block;
 	color: #999;
 }
 #container .tag a:hover{
@@ -103,6 +106,79 @@
     background: #eee url(treap4.png) no-repeat 10px center;
 }
 #container .list{
-	width: 900px;
+	width: 910px;
 	float: left;
+}
+#container .infor{
+	height: 45px;
+	line-height: 45px;
+	background-color: #eee;
+	margin: 0 0 20px 0;
+}
+#container .left{
+	display: inline-block;
+	float: left;
+}
+#container .left li {
+	display: inline-block;
+	width: 150px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+#container .left li:first-child{
+	background-color: #fff;
+	border-top: 2px solid #458b00;
+	position: relative;
+	left: 1px;  
+}
+#container .left a{
+	color: #666;
+}
+#container .right{
+	display: inline-block;
+	padding: 0 20px 0 0;
+	float: right;
+}
+#container .right li {
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+#container .right a{
+	padding: 3px 8px;
+	color: #666;
+}
+#container .right a.selected, #container .right a:hover{
+    background-color: #458b00;
+    color: #fff;
+}
+#container .tour{
+	width: 908px;
+	padding: 0;
+	background-color: #ccc;
+	margin: 0 0 20px 0;
+	border: 1px solid #eee;
+	/*background-color: red;*/
+	position: relative;
+}
+#container .tour img{
+	float: left;
+}
+#container .tour figcation{
+	width: 528px;
+	height: 230px;
+	float: right;
+}
+#container .tour footer{
+	width: 528px;
+	height: 30px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-indent: 25px;
+	background-color: #fafafa;
+	position: absolute;
+	bottom: 0;
 }
