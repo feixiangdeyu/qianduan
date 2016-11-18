@@ -1,0 +1,71 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #e0e0e0;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft YaHei",SimHei,"宋体",simsun,sans-serif;
+}
+
+#header {
+    width: 100%;
+    min-width: 1263px;
+    height: 70px;
+    background-color: #333;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+	position: relative;
+	z-index: 999;
+}
+#header .center{
+	width: 1263px;
+	height: 70px;
+	margin: 0 auto;
+}
+#header .logo{
+	width: 240px;
+	height: 70px;
+	background-image:url(logo.png);
+	background-size: 140px;
+	background-repeat: no-repeat;
+	background-position:top;
+	position: absolute;
+	text-indent: -300px;
+}
+#header .nav{
+	float: right;
+	width: 650px;
+	height: 70px;
+	line-height: 70px;
+	color: #000;
+}
+#header .nav li{
+	float: left;
+	width: 120px;
+	text-align: center;
+}
+#header .nav a{
+	color: #fff;
+	display: block;
+}
+/*#header .nav a:hover{
+	background-color：blue;
+}*/
+#section {
+	width: 90%;
+	height: 600px;
+	background-color: #fff;
+	border: 30px;
+	padding: 20px;
+	display: block;
+	margin: 10px auto;
+}
+#section .content{
+	
+
+}
+#section  p{
+	font-size: 16px;
+	text-indent: 32px;
+	letter-spacing: 1px;
+}
