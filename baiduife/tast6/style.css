@@ -1,0 +1,54 @@
+
+body{
+	margin: 0;
+	padding:0;
+}
+#text {
+	width: 980px;
+	height: 1386px;
+	border:1px solid #eee;
+	padding: 20px;
+	padding-top: 0;
+}
+#text header{
+	width: 892px;
+	border-bottom:2px solid #938e8c;
+	height: 61px;
+	position: relative;
+}
+#text header .name{
+	float: left;
+	width: 110px;
+	height: 61px;
+	background-color: red;
+}
+#text header .name p{
+    color: #fff;
+	font-size: 12px;
+	font-family: SimHei;
+	bottom:-10px;
+	position: absolute;
+	padding-left: 5px;
+}
+#text header .time{
+	float: right;
+}
+#text header .time p{
+    color: #d45d5c;
+	font-size: 12px;
+	font-family: SimHei;
+	bottom:-10px;
+	position: absolute;
+	padding-left: 5px;
+}
+
+
+
+#text section{
+	/*background-color: black;*/
+}
+
+
+#text footer{
+	background-color: green;
+}
