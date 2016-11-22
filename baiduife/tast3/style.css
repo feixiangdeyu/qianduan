@@ -9,7 +9,8 @@ body{
 	padding: 20px;
 	background-color: #eee;
 	position: relative;
-	min-height: 450px;
+	min-height: 420px;
+	font-size: 14px;
 }
 #text div{
 	border:1px solid #999;
@@ -37,8 +38,11 @@ body{
 }
 #text .center p{
     margin-top: 0;
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
 }
+/*#text .center .last{
+	margin-bottom: 0; 
+}*/
 #text .right{
 	position: absolute;
 	/*float: right;*/
@@ -46,6 +50,7 @@ body{
 	padding: 20px;
 	right: 20px;
 	top: 20px;
+	padding-bottom: 0;
 }
 
 #text .right img{
@@ -53,5 +58,5 @@ body{
 	height: 78px;
 	border: 1px solid #999;
 	margin-bottom: 20px;
-
+    vertical-align: top;
 }
