@@ -3,52 +3,192 @@ body{
 	margin: 0;
 	padding:0;
 }
-#text {
+#container {
 	width: 980px;
 	height: 1386px;
 	border:1px solid #eee;
-	padding: 20px;
-	padding-top: 0;
+	/*padding: 20px;*/
+	/*padding-top: 0;*/
+	margin: 0 auto;
 }
-#text header{
+
+#container header{
 	width: 892px;
 	border-bottom:2px solid #938e8c;
 	height: 61px;
-	position: relative;
+	margin: 0 auto;
 }
-#text header .name{
+#container header .name{
 	float: left;
 	width: 110px;
 	height: 61px;
 	background-color: red;
 }
-#text header .name p{
-    color: #fff;
+#container header .name p{
+	color: #fff;
 	font-size: 12px;
 	font-family: SimHei;
-	bottom:-10px;
-	position: absolute;
+	margin-top: 43px;
 	padding-left: 5px;
 }
-#text header .time{
+#container header .time{
 	float: right;
 }
-#text header .time p{
-    color: #d45d5c;
+#container header .time p{
+	color: #d45d5c;
 	font-size: 12px;
 	font-family: SimHei;
-	bottom:-10px;
-	position: absolute;
-	padding-left: 5px;
+	margin-top: 43px;
+	/*margin-right: -156px;*/
+	/*padding-left: 5px;*/
 }
 
 
 
-#text section{
-	/*background-color: black;*/
+
+#container section .about .left{
+	float: left;
+	/*height: 500px;*/
+	border: 1px solid #eee;
+	margin-left: 44px;
 }
 
+#container section .about .left img{
+	width: 641px;
+	height: 301px;
+	margin:20px 0;
+	/*box-shadow: 301px 191px green;*/
+}
+#container section .about .left .infor{
+	position: relative;
+	/*height: 199px;*/
+	width: 641px;
+	margin-top: 0px;
+}
+#container section .about .left .infor h3{
+	width: 200px;
+	font-size: 16px;
+	font-weight: 900;
+	text-decoration: underline;
+	font-family: Arial;
+}
+#container section .about .left .infor p{
+	font-size: 12px;
+}
+#container .about .left .infor .what h3{
+	color: #418c59;
+}
+#container .about .left .infor .when h3{
+	color: #d2994f;
+}
+#container .about .left .infor .how h3{
+	color: #cc7680;
+}
+#container .about .left .infor .what{
+	float: left;
+	width: 187px;
+	margin-left: 20px;
+}
+#container .about.left .infor .what p{
+    font-family: SimSun;
+}
+#container .about .left .infor .when p{
+    font-family: Arial;
+    filter: opacity(70%);
+}
+#container .about .left .infor .how ul li span{
+    font-family: Arial;
+    font-style: oblique;
+    color: #cd4a48;
+    /*filter:alpha(opacity=70);*/
+    filter: opacity(70%);
+}
+#container .about .left .infor .when{
+	float: left;
+	width: 187px;
+    margin-left: 20px;
+}
+#container .about .left .how{
+	float: right;
+	width: 187px;
+	margin-right: 20px;
 
-#text footer{
-	background-color: green;
+}
+#container .about .left .infor .how ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#container section .about .right{
+	float: right;
+	height: 300px;
+	width: 203px;
+	border: 1px solid #eee;
+	margin-right: 44px;
+	border-top: 2px solid #cc8091;
+	margin-top: 20px;
+	position: relative;
+}
+#container section .about .right .right1 .a{
+	font-size: 15px;
+	color: #000;
+	font-family: Arial;
+	text-decoration: underline;
+}
+#container section .about .right .right1 b{
+	font-weight: 900;
+	font-size: 24px;
+}
+#container section .about .right .right1 .t{
+	font-size: 12px;
+	color: #676767;
+	font-family: Arial;
+}
+#container section .about .right .right1 .number{
+	font-size: 116px;
+	color: #75b86b;
+	font-family: Arial;
+	margin: 0;
+	font-style: oblique;
+}
+#container section .about .right .right2 .number{
+	font-size: 55px;
+	color: #cc8091;
+	font-family: Arial;
+	float: left;
+	margin: 0;
+	margin-top: -24px;
+}
+#container section .about .right .right2 .css{
+	font-size: 12px;
+	color: #cc8091;
+	font-family: Arial;
+	float: right;
+	margin: 0 18px;
+	margin-top: -8px;
+}
+#container section .about .right .right2 .css b{
+	font-size: 21px;
+	color: #cc8091;
+	font-family: Arial;
+}
+
+#container section .content .left {
+	float: left;
+	border: 1px solid #eee;
+	background-color: blue;
+}
+
+#container .footer{
+	clear: both;
+	width: 892px;
+	margin: 0 auto;
+	border-top: 1px solid #938e83;
+}
+#container .footer p{
+	font-size: 12px;
+	color: #d45d5c;
+	font-family: SimHei;
+	float: right;
+	margin-top: 2px;
 }
