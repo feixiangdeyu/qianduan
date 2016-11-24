@@ -6,7 +6,7 @@ body{
 #container {
 	width: 980px;
 	height: 1386px;
-	border:1px solid #eee;
+	/*border:1px solid #eee;*/
 	/*padding: 20px;*/
 	/*padding-top: 0;*/
 	margin: 0 auto;
@@ -46,10 +46,13 @@ body{
 
 
 
+#container section .about{
+	padding-top: 20px;
+}
 #container section .about .left{
 	float: left;
 	/*height: 500px;*/
-	border: 1px solid #eee;
+	/*border: 1px solid #eee;*/
 	margin-left: 44px;
 }
 
@@ -74,6 +77,7 @@ body{
 }
 #container section .about .left .infor p{
 	font-size: 12px;
+	line-height: 16px;
 }
 #container .about .left .infor .what h3{
 	color: #418c59;
@@ -117,13 +121,14 @@ body{
 #container .about .left .infor .how ul{
 	list-style-type: none;
 	padding-left: 0;
+	line-height: 16px;
 }
 
 #container section .about .right{
 	float: right;
 	height: 300px;
 	width: 203px;
-	border: 1px solid #eee;
+	/*border: 1px solid #eee;*/
 	margin-right: 44px;
 	border-top: 2px solid #cc8091;
 	margin-top: 20px;
@@ -134,10 +139,12 @@ body{
 	color: #000;
 	font-family: Arial;
 	text-decoration: underline;
+	line-height: 40px;
 }
 #container section .about .right .right1 b{
 	font-weight: 900;
 	font-size: 24px;
+	line-height: 10px;
 }
 #container section .about .right .right1 .t{
 	font-size: 12px;
@@ -173,10 +180,191 @@ body{
 	font-family: Arial;
 }
 
+#container section .content{
+	width: 892px;
+	/*height: 600px;*/
+	/*border: 1px solid #eee;*/
+    margin-left: 44px;
+    clear: both;
+    padding-top: 30px;
+}
 #container section .content .left {
 	float: left;
-	border: 1px solid #eee;
-	background-color: blue;
+	width: 415px;
+}
+#container section .content .left h2{
+	font-size: 41px;
+	color: #11456b;
+	font-weight: 900;
+	font-family: SimHei;
+	margin: 10px 0;
+	/*line-height: 16px;*/
+}
+#container section .content .left h2 span{
+	font-size: 72px;
+	color: #f5e327;
+	font-weight: 900;
+	font-family: SimHei;
+	font-style: oblique;
+}
+#container section .content .left h3{
+	font-size: 33px;
+	color: #11456b;
+	font-weight: 700;
+	font-family: SimHei;
+	margin-top: 10px;
+	border-bottom: 2px solid #11456b;
+	padding-bottom: 10px;
+}
+#container section .content .left .stage{
+    font-size: 12px;
+    color: #767777;
+	width: 415px;
+	margin-top: 10px;
+	font-family: SimSun;
+	margin-bottom: 30px;
+	/*margin-left: 90px;*/
+}
+/*#container section .content .left .stage p{
+	margin:0.2em 0;
+	line-height: 16px;	
+}*/
+#container section .content .left .first span{
+    font-size: 70px;
+    color: #f5e327;
+	font-family: arial;
+	position: absolute;
+}
+#container section .content .left .stage img{
+    width: 152px;
+    height: 219px;
+    margin: 20px;
+    position: relative;
+    bottom: 320px;
+    left: 240px;
+}
+#container section .content .left .second{
+    text-indent: 24px;
+}
+
+#container section .content .right{
+	float: right;
+}
+#container section .content .right img{
+    width: 458px;
+    height: 275px;
+    margin-top: 10px;
+}
+#container section .content .right h2{
+	border-left: 3px solid #72b16a;
+	font-size: 26px;
+	font-family: Arial;
+	width: 445px;
+	height: 44px;
+	color: #fff;
+	background-color: black;
+	padding-left: 10px;
+	position: relative;
+	bottom: 68px;
+}
+#container section .content .right h2 span{
+	font-size: 12px;
+	font-family: Arial;
+	color: #76b12a;
+	font-style: oblique;
+	line-height: 140%;
+}
+#container section .content .right .buttom{
+	background-color: #fffacd;
+	width: 459px;
+	height: 318px;
+	margin-top: -60px;
+}
+#container section .content .right .buttom ul{
+	margin: 0;
+	padding: 0;
+	margin-left: 50px;
+}
+#container section .content .right .buttom li{
+	/*list-style-image: url(logo.jpeg);*/
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family:SimSun; 
+	padding: 10px;
+	line-height: 20px;
+}
+#container section .content .right .buttom li span{
+	font-size: 12px;
+    color: #5a5b5b;
+    font-family: SimSun;
+    font-style: oblique;
+    float: right;
+    margin-right: 10px;
+}
+/*#container section .content .right .one{
+	position: relative;
+}*/
+#container section .content .right .one{
+	width: 260px;
+	height: 160px;
+	background-color: #FF8080;
+	float:left;
+	margin-top: 38px;
+}
+#container section .content .right .one .zero{
+	float: left;
+	
+}
+#container section .content .right .one .zero p{
+	margin: 0;
+	font-size: 110px;
+	color: #fff;
+	font-family: Arial;
+	position: relative;
+    top: 15px;
+    left: 10px;
+}
+#container section .content .right .one .hello{
+	float: right;
+	border-left: 2px solid #fff;
+	height: 86px;
+	position: relative;
+    top: 32px;
+    right: 10px;
+    padding-left: 5px;
+}
+#container section .content .right .one .hello h3{
+    font-size: 12px;
+    color: #fff;
+    font-family: SimHei;
+    position: 
+}
+#container section .content .right .world{
+	font-size: 14px;
+	color: #5a5b5b;
+	font-family: SimHei;
+	font-style: oblique;
+	float: right;
+	width: 199px;
+}
+#container section .content .right .world p{
+	text-indent: 50px;
+}
+#container section .content .right .world span{
+	font-size: 72px;
+	color: #d45d5c;
+	font-family: SimHei;
+	position: relative;
+    top: 36px;
+   
+}
+#container section .content .right .world .begin{
+	left: -55px;
+    top: 68px;
+}
+#container section .content .right .world .end{
+	left: 123px;
+    top: -30px;
 }
 
 #container .footer{
